@@ -1,0 +1,261 @@
+/*! Main */
+* {
+  padding: 0;
+  margin: 0;
+}
+/* body {
+  background: rgb(187, 187, 187);
+} */
+.container {
+  /*  No se puede agrandar mas de 1200px */
+  max-width: 1200px;
+  background: white;
+  /* Centrar elemento */
+  margin: auto;
+  color: #003f51;
+  /* border:2px solid #1619d6; */
+}
+
+/* main style */
+.row .col p {
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  font-size: 18px;
+  line-height: 30px;
+  /* border:2px solid #003f51; */
+}
+
+.row  p {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  /* border:2px solid #003f51; */
+}
+
+#paragraphIntroText{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+
+.group:before,
+.group:after {
+  content: " ";
+  display: table;
+}
+.row {
+  margin-bottom: 50px;
+  clear: both;
+  *zoom: 1;
+  /* border:2px solid #003f51; */
+
+}
+
+.col {
+  float: left;
+  margin: 0 1.5%;
+  width: 45%;
+  /* border:2px solid #003f51; */
+}
+
+/* * Center img */
+.center {
+  display: block;
+  height: 20em;
+  max-width: 100%;
+  padding: 3em 0em 2em;
+  margin: auto;
+  /* border:2px solid #003f51; */
+}
+.center-service {
+  display: block;
+  max-width: 100%;
+  padding: 3em 0em 2em;
+  margin: auto;
+  /* border:2px solid #003f51; */
+}
+
+.group h2 {
+  font-family: 'Roboto';
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 4rem;
+  /* border:2px solid #a5151d; */
+}
+#introText {
+  text-align: left;
+  /* border:2px solid #003f51; */
+}
+
+/* Header justify, inline-block */
+header {
+  text-align: justify;
+  /* border:solid rgb(70, 49, 190); */
+}
+
+header:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 0;
+  margin-bottom: 10px;
+}
+
+.inline-block {
+  padding-top: 20px;
+  /* background-color: #d4d9e9; */
+}
+
+a:link {
+  text-decoration: none;
+}
+
+h1 {
+  display: inline-block;
+  margin-top: 0.321em;
+  font-size: 40px;
+  text-align: center;
+}
+/* h1 a {
+  color: #003f51;
+} */
+.inline-block a img {
+  max-width: 15em;
+  /* height: auto; */
+}
+
+/*! Navigation */
+nav {
+  display: inline-block;
+  text-transform: uppercase;
+  /* vertical-align: baseline; */
+  /* border:solid rgb(44, 197, 146); */
+}
+
+.navigation a {
+  background: #395870;
+  background: linear-gradient(#49708f, #293f50);
+  color: #fff;
+  padding: 5px 10px;
+  border-right: 1px solid rgba(0, 0, 0, .3);
+}
+
+.primary-footer {
+  padding-bottom: 44px;
+  padding-top: 44px;
+}
+
+.map {
+  margin-top: 30px;
+  /* border:2px solid #003f51; */
+}
+.contact {
+  margin-top: 30px;
+  font-family: 'Robot', sans-serif;
+  line-height: 40px;
+  font-size: 18px;
+  text-decoration: none;
+  /* border:2px solid #003f51; */
+}
+.contact ul {
+  list-style-type: none;
+}
+
+a { color: inherit; }
+
+/* ! Footer */
+footer {
+  clear: both;
+}
+
+/*! Register & contactUs */
+.reg {
+  display: block;
+  padding: 10px 20px 10px 30px;
+  width: 30vw;
+  margin: auto;
+  color: #003f51;
+  /* border:2px solid #33d80a; */
+}
+.reg label{
+  font-family: 'Poppins', sans-serif;
+}
+.reg h1, p {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+/* Style inputs */
+input[type=text], input[type=password], textarea {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 0px 0 10px;
+  border: none;
+  background: #f1f1f1;
+  /* border:1px solid #be184a; */
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #7f9e9ea2;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #229696;
+  color: white;
+  padding: 16px 20px;
+  margin: 5px 0 10px;
+  border: none;
+  width: 100%;
+  opacity: 0.9;
+  font-weight: bold;
+  /* border:1px  dashed #2306c4; */
+}
+label {
+  font-weight: bold;
+}
+
+.col-phone {
+  display: inline-block;
+  /* margin-right: 0.5em; */
+  /* border:1px  dashed #2306c4; */
+}
+
+.col-phone.code input[type=text] {
+  width: 35%;
+  /* border:1px  dashed #2306c4; */
+}
+.col-phone.number input[type=text] {
+  width: 250%;
+  /* border:1px  dashed #2306c4; */
+}
+.registerbtn:hover {
+  opacity: 1;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #003f51;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #003f51;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #229696;
+}
